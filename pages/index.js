@@ -1,5 +1,8 @@
 import Head from "next/head";
 import {BsFillMoonStarsFill} from 'react-icons/bs'
+import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub} from 'react-icons/ai'
+import Image from "next/image";
+import mitoru from "../public/mitoru.png"; 
 
 export default function Home() {
   return (
@@ -20,6 +23,19 @@ export default function Home() {
               <li><a className=" bg-gradient-to-r from-cyan-500 to-sky-500 text-white px-4 py-2 rounded ml-8" href="#">Lebenslauf</a></li>
            </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-sky-500 font-medium">Mitoru Dev</h2>
+            <h3 className="text-2xl py-2">Developer and designer.</h3>
+            <p className="text-md py-5 leading-8 text-gray-800"> This is text i need to change soon !</p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillTwitterCircle />
+            <AiFillInstagram />
+            <AiFillGithub />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-72 h-72 mt-20 overflow-hidden">
+            <Image src={mitoru} layout="fill" objectFit="cover" />
+          </div>
         </section>
       </main>
     </>
