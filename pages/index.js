@@ -43,7 +43,7 @@ export default function Home() {
                   target="_blank"
                   href="https://discord.gg/Gy8M8Tsr7C"
                 >
-                  The 1% Journey
+                  The 1%
                 </a>
               </li>
             </ul>
