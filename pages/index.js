@@ -2,7 +2,8 @@ import Head from "next/head";
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillInstagram, AiFillGithub} from 'react-icons/ai'
 import Image from "next/image";
-import mitoru from "../public/mitoru.png"; 
+import mitoru from "../public/mitoru.png";
+import {useState} from "react";
 
 export default function Home() {
   return (
@@ -35,6 +36,19 @@ export default function Home() {
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-72 h-72 mt-20 overflow-hidden">
             <Image src={mitoru} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Services I offer</h3>
+            <p className="text-md py-2 leading-8 text-gray-800"> 
+              Since the beginning of my journey as a freelencer designer and developer, I've done remote work for 
+              <span className="text-sky-500"> agencies </span> 
+              consulted for 
+              <span className="text-sky-500"> startups </span> 
+              and collaborated with talanted people to create digital products for both business and consumer use. 
+            </p>
           </div>
         </section>
       </main>
