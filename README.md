@@ -2,11 +2,13 @@
 
 Willkommen zu meinem persönlichen Portfolio-Projekt "Mitoru Portfolio"! Dieses Repository enthält den Quellcode für meine interaktive Webseite, auf der ich meine Fähigkeiten, Projekte und Erfahrungen als Frontend-Entwickler präsentiere.
 
+![Bot Banner](https://media.discordapp.net/attachments/558723762191859712/1134796345820057680/Mitoru-Portfolio.png?width=720&height=359)
+
 ## Technologien
 
 Das Portfolio wurde mit einer Vielzahl von Technologien entwickelt, darunter:
 
-- HTML: Die grundlegende Struktur der Webseite.
+- HTML: Die grundlegende Sthttps://media.discordapp.net/attachments/558723762191859712/1134796345820057680/Mitoru-Portfolio.png?width=720&height=359ruktur der Webseite.
 - CSS und Tailwind CSS: Die Gestaltung und das Layout wurden mithilfe von CSS gestaltet, wobei Tailwind CSS als Framework für eine schnelle und effiziente Entwicklung eingesetzt wurde.
 - JavaScript: Interaktive Elemente und Effekte wurden mit JavaScript implementiert, um eine ansprechende Nutzererfahrung zu gewährleisten.
 - React: Die Webseite ist eine Single-Page-Anwendung, die mithilfe von React erstellt wurde, um eine modulare und wartbare Codebasis zu ermöglichen.
