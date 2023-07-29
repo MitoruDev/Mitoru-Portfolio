@@ -1,38 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mitoru Next.Js Portfolio
 
-## Getting Started
+Willkommen zu meinem persönlichen Portfolio-Projekt "Mitoru Portfolio"! Dieses Repository enthält den Quellcode für meine interaktive Webseite, auf der ich meine Fähigkeiten, Projekte und Erfahrungen als Frontend-Entwickler präsentiere.
 
-First, run the development server:
+## Technologien
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Das Portfolio wurde mit einer Vielzahl von Technologien entwickelt, darunter:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- HTML: Die grundlegende Struktur der Webseite.
+- CSS und Tailwind CSS: Die Gestaltung und das Layout wurden mithilfe von CSS gestaltet, wobei Tailwind CSS als Framework für eine schnelle und effiziente Entwicklung eingesetzt wurde.
+- JavaScript: Interaktive Elemente und Effekte wurden mit JavaScript implementiert, um eine ansprechende Nutzererfahrung zu gewährleisten.
+- React: Die Webseite ist eine Single-Page-Anwendung, die mithilfe von React erstellt wurde, um eine modulare und wartbare Codebasis zu ermöglichen.
+- TypeScript: TypeScript wurde verwendet, um statische Typisierung im Code einzuführen, um Fehler frühzeitig zu erkennen und die Codequalität zu verbessern.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Übersichtliche Darstellung meiner persönlichen Informationen, Fähigkeiten und Projekte.
+- Interaktive Projektgalerie mit detaillierten Beschreibungen und Live-Demos.
+- Kontaktformular für Anfragen und Feedback.
+- Responsive Design für eine optimale Darstellung auf verschiedenen Geräten und Bildschirmgrößen.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Warum "Mitoru"?
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+"Mitoru" stammt aus dem Japanischen und bedeutet "beobachten" oder "betrachten". Dieser Name spiegelt meine Leidenschaft für Ästhetik, Aufmerksamkeit zum Detail und meine Fähigkeit wider, kreative Lösungen durch die Linse der Benutzererfahrung zu betrachten.
 
-## Learn More
+## Mitwirken
 
-To learn more about Next.js, take a look at the following resources:
+Ich freue mich immer über Beiträge und Feedback von der Community. Wenn du Vorschläge hast, wie dieses Portfolio weiter verbessert werden kann oder wenn du Fehler entdeckst, zögere nicht, ein Issue zu erstellen oder einen Pull Request beizusteuern.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Vielen Dank, dass du mein Portfolio-Projekt "Mitoru Portfolio" besuchst!
