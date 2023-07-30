@@ -73,16 +73,16 @@ export default function Home() {
 These are my current proficiencies in the IT services domain and the progress I have made in learning.</p>
           <div className="flex flex-row max-w-screen text-center items-center">
             <div className="w-1/3">
-              <Image className="mx-auto" src={skills95} alt="image1" />
-              <h5>HTML & CSS</h5>
+              <Image className="mx-auto" src={skills95} alt="Skill 1" />
+              <h4>HTML & CSS</h4>
             </div>
             <div className="w-1/3"> 
               <Image className="mx-auto" src={skills95} alt="Skill 2"/>
-              <h5>JavaScript</h5>
+              <h4>JavaScript</h4>
             </div>
             <div className="w-1/3">
-              <Image className="mx-auto" src={skills80} alt="image1" />
-              <h5>React</h5>
+              <Image className="mx-auto" src={skills80} alt="Skill 3" />
+              <h4>React</h4>
             </div>
           </div>
         </section>
