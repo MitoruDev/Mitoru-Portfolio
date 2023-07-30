@@ -2,7 +2,8 @@
 
 Willkommen zu meinem persönlichen Portfolio-Projekt "Mitoru Portfolio"! Dieses Repository enthält den Quellcode für meine interaktive Webseite, auf der ich meine Fähigkeiten, Projekte und Erfahrungen als Frontend-Entwickler präsentiere.
 
-# [Portfolio-Web](mitoru.de)
+# [Portfolio-Web](https://mitoru.de)
+
 
 ![Bot Banner](https://media.discordapp.net/attachments/558723762191859712/1134796345820057680/Mitoru-Portfolio.png?width=720&height=359)
 
