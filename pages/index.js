@@ -67,22 +67,25 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="max-w-4xl m-auto max-h-96 mt-20 bg-sky-200 p-10 rounded-xl mb-1 dark:bg-gray-950">
-          <h2 className=" text-center text-slate-950 text-4xl font-extrabold dark:text-white">Skills</h2>
-          <p className="text-center mb-10 mt-2"> 
-These are my current proficiencies in the IT services domain and the progress I have made in learning.</p>
-          <div className="flex flex-row max-w-screen text-center items-center">
-            <div className="w-1/3">
-              <Image className="mx-auto" src={skills95} alt="Skill 1" />
-              <h5>HTML & CSS</h5>
-            </div>
-            <div className="w-1/3"> 
-              <Image className="mx-auto" src={skills95} alt="Skill 2"/>
-              <h5>JavaScript</h5>
-            </div>
-            <div className="w-1/3">
-              <Image className="mx-auto" src={skills80} alt="Skill 3" />
-              <h5>React</h5>
+        <section className="pb-10">
+          <div className="max-w-4xl m-auto mt-20 bg-sky-200 p-5 rounded-xl dark:bg-gray-950">
+            <h2 className=" text-center text-slate-950 text-4xl font-extrabold dark:text-white">Skills</h2>
+            <p className="text-center mb-10 mt-2"> 
+              These are my current proficiencies in the IT services domain and the progress I have made in learning.
+            </p>
+            <div className="flex flex-row max-w-screen text-center items-center">
+              <div className="w-1/3 text-xs">
+                <Image className="mx-auto p-5" src={skills95} alt="Skill 1" />
+                <h5>HTML & CSS</h5>
+              </div>
+              <div className="w-1/3 text-xs"> 
+                <Image className="mx-auto p-5" src={skills95} alt="Skill 2"/>
+                <h5>JavaScript</h5>
+              </div>
+              <div className="w-1/3 text-xs">
+                <Image className="mx-auto p-5" src={skills80} alt="Skill 3" />
+                <h5>React</h5>
+              </div>
             </div>
           </div>
         </section>
