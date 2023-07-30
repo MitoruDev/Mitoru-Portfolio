@@ -29,7 +29,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 dark:text-white">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl">Mitoru Portfolio</h1>
+            <h1 className="text-xl hover:text-sky-500">Mitoru Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -57,10 +57,10 @@ export default function Home() {
               Your ideas, our web. Let's start together
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <AiFillTwitterCircle />
-            <AiFillInstagram />
-            <AiFillGithub />
+          <div className="text-5xl flex justify-center gap-16 p-3 text-gray-600 dark:text-gray-400">
+            <a target="_blank" href="https://twitter.com/Mitoru05"><AiFillTwitterCircle className="hover:text-sky-500"/></a>
+            <a target="_blank" href="https://www.instagram.com/mitoru05/"><AiFillInstagram className="hover:text-sky-500"/></a>
+            <a target="_blank" href="https://github.com/MitoruDev"><AiFillGithub className="hover:text-sky-500"/></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-72 h-72 mt-20 overflow-hidden">
             <Image src={mitoru} layout="fill" objectFit="cover" />
